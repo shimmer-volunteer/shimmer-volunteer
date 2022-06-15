@@ -1,0 +1,30 @@
+<view>
+    <view class="nav">
+        <view class="">
+            <view class="userinfo ">
+                <view class="avatar">
+                    <image class="avatar" src="{{avatarUrl}}" mode="cover"></image>
+                </view>
+                <text class="nickname">{{nickName}}</text>
+            </view>
+        </view>
+    </view>
+    <view class="pd ">
+        <view class="topcard flex">
+            <view class="pd20 center flex1" wx:for="{{ donationList }}">
+                <view class="separator">
+                    <text class="value">{{item.value}}</text>
+                    <text class="unit">{{item.unit}}</text>
+                    <view class="title">{{item.title}}</view>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="pd">
+        <view class="mycard">
+            <van-cell-group >
+                <van-cell wx:key="{{idx}}" wx:for="{{ cellList }}" wx:for-index="idx" title="{{item.title}}" is-link  border="{{false}}" />
+            </van-cell-group>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,14 @@
+{
+  "name": "getNearPoint",
+  "version": "1.0.0",
+  "description": "根据当前位置查找附近机构",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "wx-server-sdk": "~2.6.2"
+  }
+}

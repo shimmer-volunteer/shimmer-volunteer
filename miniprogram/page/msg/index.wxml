@@ -1,0 +1,8 @@
+<view>
+    <van-tabs active="{{ active }}">
+        <van-tab wx:key="{{idx}}" wx:for="{{ tagList }}" wx:for-index="idx" wx:for-item="item" title="{{item.name}}"></van-tab>
+    </van-tabs>
+    <van-cell id="{{item._id}}" wx:key="{{idx}}" wx:for="{{ resourceList }}" wx:for-index="idx" wx:for-item="item" center title="{{item.name}}" label="{{item.detail}}" >
+        <van-image class="pd10" slot="icon" round width="40" height="40" src="cloud://shimmer-volunteer-8ewkmef1b810c7.7368-shimmer-volunteer-8ewkmef1b810c7-1312125606/app/msg/setting.png" />
+    </van-cell>
+</view>

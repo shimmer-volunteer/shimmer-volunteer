@@ -1,0 +1,38 @@
+{
+  "light": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#F7F7F7",
+    "backgroundColor": "#F7F7F7",
+    "tabBarColor": "#7A7E83",
+    "tabBarSelectedColor": "#2876F1",
+    "tabBarBorderStyle": "black",
+    "tabBarBackgroundColor": "#F7F7F7",
+    "iconPathHome": "image/home_dark.png",
+    "selectedIconPathHome": "image/home_HL.png",
+    "iconPathMap": "image/map_dark.png",
+    "selectedIconPathMap": "image/map_HL.png",
+    "iconPathMsg": "image/msg_dark.png",
+    "selectedIconPathMsg": "image/msg_HL.png",
+    "iconPathMy": "image/my_dark.png",
+    "selectedIconPathMy": "image/my_HL.png",
+    "backgroundTextStyle": "dark"
+  },
+  "dark": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#F7F7F7",
+    "backgroundColor": "#F7F7F7",
+    "tabBarColor": "#7A7E83",
+    "tabBarSelectedColor": "#2876F1",
+    "tabBarBorderStyle": "black",
+    "tabBarBackgroundColor": "#F7F7F7",
+    "iconPathHome": "image/home_dark.png",
+    "selectedIconPathHome": "image/home_HL.png",
+    "iconPathMap": "image/map_dark.png",
+    "selectedIconPathMap": "image/map_HL.png",
+    "iconPathMsg": "image/msg_dark.png",
+    "selectedIconPathMsg": "image/msg_HL.png",
+    "iconPathMy": "image/my_dark.png",
+    "selectedIconPathMy": "image/my_HL.png",
+    "backgroundTextStyle": "dark"
+  }
+}

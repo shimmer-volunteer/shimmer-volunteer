@@ -1,0 +1,14 @@
+<view>
+    <view class="form">
+        <van-field model:value="{{ actName }}" required clearable label="活动名称" placeholder="请输入活动名称" error-message="{{actNameErrorMsg}}" bind:input="realnameInput" />
+        <van-field model:value="{{ actContent }}" required clearable label="活动详情" placeholder="请选择活动详情" />
+        <van-field model:value="{{ actTime }}" required clearable label="活动开始时间" placeholder="请选择活动开始时间" />
+        <van-field model:value="{{ actCommand }}" required clearable label="招募要求" placeholder="请输入招募要求" />
+        <van-field model:value="{{ actManager }}" required clearable label="活动负责人" placeholder="请输入活动负责人姓名" />
+        <van-field model:value="{{ actPhone }}" required clearable label="活动负责人联系方式" placeholder="请输入联系方式" />
+        <van-field model:value="{{ actRecruiment }}" required clearable label="招募人数" placeholder="请输入招募人数" />
+    </view>
+    <view class="submit">
+        <van-button center type="primary" bindtap="createActivity">创建活动</van-button>
+    </view>
+</view>

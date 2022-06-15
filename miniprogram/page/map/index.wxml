@@ -1,0 +1,10 @@
+<view>
+    <van-search value="{{ value }}" placeholder="请输入搜索关键词" />
+    <map id="map" latitude="{{location.latitude}}" longitude="{{location.longitude}}" scale="{{scale}}" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" bindregionchange="regionchange" show-location style="width: 100%; height: 100vh;"></map>
+    <van-popup show="{{ show }}" position="bottom" custom-style="height: 30%;" bind:close="onClose">
+        <van-cell-group>
+            <van-cell id="{{charityDetail._id}}" icon="location-o" title="{{charityDetail.name}}" bindtap="gotoDetail" is-link />
+            <van-cell icon="more-o" title="{{charityDetail.slogan}}" />
+        </van-cell-group>
+    </van-popup>
+</view>

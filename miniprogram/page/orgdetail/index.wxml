@@ -1,0 +1,15 @@
+<view>
+    <van-cell-group title="基本信息">
+        <van-cell icon="star-o" title="{{charityDetail.name}}" />
+        <van-cell icon="more-o" title="{{charityDetail.slogan}}" />
+    </van-cell-group>
+    <van-cell-group title="联系方式">
+        <van-cell icon="chat" title="{{charityDetail.head}}" />
+        <van-cell icon="envelop-o" title="{{charityDetail.email}}" />
+        <van-cell icon="phone" title="{{charityDetail.phone}}" />
+        <van-cell icon="location-o" title="{{charityDetail.address + org.detailedAddress}}" />
+    </van-cell-group>
+    <van-cell-group title="服务类型">
+        <van-cell icon="friends-o" title="{{charityDetail.type}}" />
+    </van-cell-group>
+</view>

@@ -1,0 +1,79 @@
+.card {
+  padding: 30rpx;
+}
+.nav {
+  position: fixed;
+  z-index: -1;
+  height: 400rpx;
+  width: 100%;
+  background-size: 100% 100%;
+  background-image: url("https://7368-shimmer-volunteer-8ewkmef1b810c7-1312125606.tcb.qcloud.la/app/my/my_top_bg.png?sign=1f6bf8432d6ab6189b62ce7b6e6a72c9&t=1655278689");
+}
+
+.userinfo {
+  padding-top: 140rpx;
+  width: 260rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.avatar {
+  width: 100rpx;
+  height: 100rpx;
+  display: inline-block;
+  margin: auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.nickname {
+  color: #ffffff;
+  margin-top: 20rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+}
+.pd {
+  padding: 30rpx;
+  border-radius: 14rpx;
+}
+.mycard {
+  box-shadow: 0px 10px 18px 2px rgba(13, 54, 137, 0.05);
+  border-radius: 14rpx;
+  overflow: hidden;
+  transform: translateY(0);
+}
+
+.topcard {
+  margin-top: 200rpx;
+  z-index: 5;
+  border-radius: 14rpx;
+  overflow: hidden;
+  transform: translateY(0);
+  height: 300rpx;
+  background-size: 100vw 100%;
+  background-image: url("https://7368-shimmer-volunteer-8ewkmef1b810c7-1312125606.tcb.qcloud.la/app/my/my_card_bg.png?sign=e1096897940c3b76e345c12663a2c424&t=1655278846");
+}
+
+.title {
+  font-size: 30rpx;
+  font-weight: 300;
+  margin-top: 40rpx;
+}
+.unit {
+  font-size: 30rpx;
+  color: #97979f;
+  margin-left: 6rpx;
+}
+.center {
+  text-align: center;
+}
+.pd20 {
+  padding: 20rpx;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.flex1 {
+  flex: 1;
+  justify-content: center;
+}
