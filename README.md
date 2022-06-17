@@ -1,4 +1,17 @@
-# shimmer-volunteer 微光小程序
+# shimmer-volunteer 微光志愿者小程序
+<p align="center">
+    <img alt="TDesign Logo" width="200" src="./assets/images/logo.png">
+</p>
+
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+数云汇爱天地阔，微光奇烁志愿心。
+
+## 项目介绍
+> 本平台以腾讯云为主要技术支撑，集地图搜索与展示、数据报表生成与可视化、讯息发布与精准推送、用户注册认证与管理等功能于一体，专注于为公益团体及个人、有关监管部门、各界爱心人士等提供便捷、高效、安全的一体化服务。
+
 
 ## 功能需求
 - 需求点1： 志愿者管理 -- 志愿者注册、志愿者登录、志愿者数据管理模块
@@ -34,3 +47,61 @@
 
 ### 我的
 ![我的](./assets/images/my.png)
+
+
+## 快速上手
+
+环境要求：Node.js >= 14
+
+安装依赖：
+
+```bash
+yarn
+```
+打开[微信开发者工具](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html)，把 `shimmer-volunteer` 目录添加进去就可以预览示例了。
+
+## 基础库版本
+
+使用基础库版本`^2.24.5`
+
+## 预览
+请使用微信扫码预览 ↓
+<br/>
+![微信扫码预览](./assets/images/mini_qrcode.jpg)
+
+## 欢迎贡献
+项目需要大家的支持，期待更多小伙伴的贡献，你可以：
+- 提建议或 Bug：[反馈平台](https://support.qq.com/products/413347)
+- 在 GitHub 上提交你的项目
+
+
+## 联系作者
+![联系作者](./assets/images/contactme.jpg)
+
+## 公益捐赠
+![公益捐赠](./assets/images/wechat_pay.jpg)
+
+
+## 致谢
+IT-CJF 
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://blog.csdn.net/caijunfen"><img src="https://avatars.githubusercontent.com/u/18321599?v=4?s=100" width="100px;" alt=""/><br /><sub><b>腾讯全栈开发  IT-CJF</b></sub></a><br /><a href="https://github.com/liyupi/code-nav/commits?author=jwcjf" title="Code">💻</a></td>
+   
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
