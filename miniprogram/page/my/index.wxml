@@ -27,4 +27,12 @@
             </van-cell-group>
         </view>
     </view>
+
+    <view class="pd">
+        <view class="mycard">
+            <van-cell-group >
+                <van-cell wx:key="{{idx}}" wx:for="{{ cellList1 }}" wx:for-index="idx" title="{{item.title}}" is-link  border="{{false}}"  bind:click="{{item.fun}}"/>
+            </van-cell-group>
+        </view>
+    </view>
 </view>

@@ -2,7 +2,7 @@
   padding: 30rpx;
 }
 .nav {
-  position: fixed;
+  position: absolute;
   z-index: -1;
   height: 400rpx;
   width: 100%;

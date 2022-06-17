@@ -92,6 +92,8 @@
     "audio",
     "location"
   ],
-  "embeddedAppIdList": [],
+  "embeddedAppIdList": [
+    "wx8abaf00ee8c3202e"
+  ],
   "lazyCodeLoading": "requiredComponents"
 }

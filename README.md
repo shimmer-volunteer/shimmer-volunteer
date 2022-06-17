@@ -17,6 +17,9 @@
 
 ## 功能界面
 
+### 功能演示
+![功能演示](./assets/images/demo.gif)
+
 ### 首页
 ![首页](./assets/images/home.png)
 
