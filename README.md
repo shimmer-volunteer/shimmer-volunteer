@@ -4,7 +4,7 @@
 </p>
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 数云汇爱天地阔，微光奇烁志愿心。
@@ -31,22 +31,28 @@
 ## 系统设计图(部分)
 ![系统设计图(部分)](./assets/images/sys_design.png)
 
+## 系统逻辑
+![系统设计图(部分)](./assets/images/sys_logic.png)
+
+## 志愿者操作流程
+![志愿者操作流程](./assets/images/volunteer_operation_process.png)
+
 ## 功能界面
 
 ### 功能演示
 ![功能演示](./assets/images/demo.gif)
 
-### 首页
-![首页](./assets/images/home.png)
+### 首页功能
+![首页功能](./assets/images/home.png)
 
 ### 公益地图
 ![公益地图](./assets/images/map.png)
 
-### 消息
-![消息](./assets/images/msg.png)
+### 消息功能
+![消息功能](./assets/images/msg.png)
 
-### 我的
-![我的](./assets/images/my.png)
+### 我的功能
+![我的功能](./assets/images/my.png)
 
 
 ## 快速上手
