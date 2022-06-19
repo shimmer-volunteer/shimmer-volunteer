@@ -1,0 +1,22 @@
+
+<view class="pd20">
+    <van-popup show="{{ show }}" position="bottom" custom-style="height: 30%;" bind:close="onClose">
+        <van-area value="110101" area-list="{{ areaList }}" title="请选择城市" columns-num="{{ 1 }}" bind:confirm="areaConfirm" />
+    </van-popup>
+   
+    <!-- van-search value="{{ searchValue }}" placeholder="请输入机构名称" bind:change="onChange" bind:search="onSearch" -->
+
+    <!-- view class="ptb20">志愿活动推荐</view -->
+    <view class="mycard">
+        <view>
+            <van-tabs active="{{ active }}" animated bind:click="typeChange">
+                <van-tab wx:key="{{idx}}" wx:for="{{ tagList }}" wx:for-index="idx" wx:for-item="item" title="{{item.name}}"></van-tab>
+            </van-tabs>
+        </view>
+        <view>
+            <van-cell id="{{item._id}}" wx:key="{{idx}}" wx:for="{{ resourceList }}" wx:for-index="idx" wx:for-item="item" center title="{{item.actName}}" label="{{item.actType}}" bindtap="gotoDetail">
+                <van-image class="pd10" slot="icon" round width="40" height="40" src="/image/logo.png" />
+            </van-cell>
+        </view>
+    </view>
+</view>
