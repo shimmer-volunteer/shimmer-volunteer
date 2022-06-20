@@ -1,0 +1,40 @@
+<view>
+    <van-cell-group title="活动信息">
+        <van-cell icon="star-o" title="活动名称：{{activityDetail.actName}}" center size="large"/>
+        <van-cell  icon="more-o" size="large">
+          <view slot="title" >
+            <view class="van-cell-text" >活动内容：</view>
+            <view class="van-cell-text" >{{activityDetail.actContent}}</view>
+          </view>
+        </van-cell>
+
+        <van-cell icon="friends-o" title="需要招募人数：{{activityDetail.actRecruiment}}"  size="large"/>
+        <van-cell icon="friends-o" title="已报名人数：{{activityDetail.applyVolunteer.length}}" size="large"/>
+     
+    </van-cell-group>
+
+    <van-cell-group title="报名信息">
+       <!-->
+      <van-grid column-num="4" border="{{ false }}" gutter="{{ 10 }}">
+        <van-grid-item use-slot text="{{item}}" wx:for="{{ activityDetail.applyVolunteer }}" wx:for-item="item" >
+          <image style="width: 100%; height: 90px;" src="https://img.yzcdn.cn/vant/apple-{{ 1 }}.jpg"/>
+          <van-cell title="{{item}}"/>
+        </van-grid-item>
+      </van-grid>
+      <-->
+      <van-grid column-num="4" >
+        <van-grid-item  icon="friends-o" text="{{item}}" wx:for="{{ activityDetail.applyVolunteer }}" wx:for-item="item" /> 
+      </van-grid>
+      
+    </van-cell-group>
+    
+    <van-cell-group title="联系方式">
+        <van-cell icon="manager-o" title="负责人：{{activityDetail.actManager}}" size="large"/>
+        <van-cell icon="envelop-o" title="{{activityDetail.email}}" size="large"/>
+        <van-cell icon="phone" title="{{activityDetail.actPhone}}" size="large"/>
+        <van-cell icon="location-o" title="{{activityDetail.address }}" size="large"/>
+    </van-cell-group>
+    <van-cell-group title="服务类型">
+        <van-cell icon="friends-o" title="{{activityDetail.actType}}" size="large"/>
+    </van-cell-group>
+</view>

@@ -10,7 +10,7 @@
             </swiper-item>
         </block>
     </swiper>
-    <view class="ptb20">公益机构推荐</view>
+    <view class="ptb20">志愿活动、公益机构推荐</view>
     <view class="mycard">
         <view>
             <van-tabs active="{{ active }}" animated bind:click="typeChange">

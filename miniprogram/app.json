@@ -1,8 +1,11 @@
 {
   "pages": [
+    
     "page/home/index",
+    "page/activitys/index",
     "page/map/index",
     "page/orgdetail/index",
+    "page/activityDetail/index",
     "page/my/index",
     "page/register/index",
     "page/msg/index",
